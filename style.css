@@ -1,4 +1,5 @@
 /* Write Your CSS Below 
+
 Colors: 
 - rgb(243, 183, 106)
 - yellow
@@ -27,3 +28,15 @@ Images:
 - "https://i.pinimg.com/236x/d6/3f/56/d63f563519df0ece564b82c72e9e306c.jpg"
     - (You may use any image you would like for the background!)
 */
+img{
+    height: 400px;
+    width: 600px;
+}
+body{
+    background-image: url('https://i.pinimg.com/236x/d6/3f/56/d63f563519df0ece564b82c72e9e306c.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    background: linear-gradient(rgb(243, 183, 106), rgb(241, 117, 0));
+}
